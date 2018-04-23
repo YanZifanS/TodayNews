@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC649B1208DAA0A0089D85F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649B0208DAA0A0089D85F /* AppDelegate.m */; };
+		FAC649B4208DAA0A0089D85F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649B3208DAA0A0089D85F /* ViewController.m */; };
+		FAC649B7208DAA0A0089D85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC649B5208DAA0A0089D85F /* Main.storyboard */; };
+		FAC649B9208DAA0A0089D85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC649B8208DAA0A0089D85F /* Assets.xcassets */; };
+		FAC649BC208DAA0A0089D85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */; };
+		FAC649BF208DAA0A0089D85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649BE208DAA0A0089D85F /* main.m */; };
+		FAC649C9208DAA0A0089D85F /* ZFNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649C8208DAA0A0089D85F /* ZFNewsTests.m */; };
+		FAC649D4208DAA0A0089D85F /* ZFNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649D3208DAA0A0089D85F /* ZFNewsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC649C5208DAA0A0089D85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC649A4208DAA0A0089D85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC649AB208DAA0A0089D85F;
+			remoteInfo = ZFNews;
+		};
+		FAC649D0208DAA0A0089D85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC649A4208DAA0A0089D85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC649AB208DAA0A0089D85F;
+			remoteInfo = ZFNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC649AC208DAA0A0089D85F /* ZFNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC649AF208DAA0A0089D85F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAC649B0208DAA0A0089D85F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAC649B2208DAA0A0089D85F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAC649B3208DAA0A0089D85F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAC649B6208DAA0A0089D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC649B8208DAA0A0089D85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC649BB208DAA0A0089D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC649BD208DAA0A0089D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC649BE208DAA0A0089D85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC649C4208DAA0A0089D85F /* ZFNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC649C8208DAA0A0089D85F /* ZFNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNewsTests.m; sourceTree = "<group>"; };
+		FAC649CA208DAA0A0089D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC649CF208DAA0A0089D85F /* ZFNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC649D3208DAA0A0089D85F /* ZFNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNewsUITests.m; sourceTree = "<group>"; };
+		FAC649D5208DAA0A0089D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC649A9208DAA0A0089D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649C1208DAA0A0089D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649CC208DAA0A0089D85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC649A3208DAA0A0089D85F = {
+			isa = PBXGroup;
+			children = (
+				FAC649AE208DAA0A0089D85F /* ZFNews */,
+				FAC649C7208DAA0A0089D85F /* ZFNewsTests */,
+				FAC649D2208DAA0A0089D85F /* ZFNewsUITests */,
+				FAC649AD208DAA0A0089D85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC649AD208DAA0A0089D85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC649AC208DAA0A0089D85F /* ZFNews.app */,
+				FAC649C4208DAA0A0089D85F /* ZFNewsTests.xctest */,
+				FAC649CF208DAA0A0089D85F /* ZFNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC649AE208DAA0A0089D85F /* ZFNews */ = {
+			isa = PBXGroup;
+			children = (
+				FAC649AF208DAA0A0089D85F /* AppDelegate.h */,
+				FAC649B0208DAA0A0089D85F /* AppDelegate.m */,
+				FAC649B2208DAA0A0089D85F /* ViewController.h */,
+				FAC649B3208DAA0A0089D85F /* ViewController.m */,
+				FAC649B5208DAA0A0089D85F /* Main.storyboard */,
+				FAC649B8208DAA0A0089D85F /* Assets.xcassets */,
+				FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */,
+				FAC649BD208DAA0A0089D85F /* Info.plist */,
+				FAC649BE208DAA0A0089D85F /* main.m */,
+			);
+			path = ZFNews;
+			sourceTree = "<group>";
+		};
+		FAC649C7208DAA0A0089D85F /* ZFNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC649C8208DAA0A0089D85F /* ZFNewsTests.m */,
+				FAC649CA208DAA0A0089D85F /* Info.plist */,
+			);
+			path = ZFNewsTests;
+			sourceTree = "<group>";
+		};
+		FAC649D2208DAA0A0089D85F /* ZFNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC649D3208DAA0A0089D85F /* ZFNewsUITests.m */,
+				FAC649D5208DAA0A0089D85F /* Info.plist */,
+			);
+			path = ZFNewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC649AB208DAA0A0089D85F /* ZFNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC649D8208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNews" */;
+			buildPhases = (
+				FAC649A8208DAA0A0089D85F /* Sources */,
+				FAC649A9208DAA0A0089D85F /* Frameworks */,
+				FAC649AA208DAA0A0089D85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFNews;
+			productName = ZFNews;
+			productReference = FAC649AC208DAA0A0089D85F /* ZFNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC649C3208DAA0A0089D85F /* ZFNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC649DB208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNewsTests" */;
+			buildPhases = (
+				FAC649C0208DAA0A0089D85F /* Sources */,
+				FAC649C1208DAA0A0089D85F /* Frameworks */,
+				FAC649C2208DAA0A0089D85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC649C6208DAA0A0089D85F /* PBXTargetDependency */,
+			);
+			name = ZFNewsTests;
+			productName = ZFNewsTests;
+			productReference = FAC649C4208DAA0A0089D85F /* ZFNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC649CE208DAA0A0089D85F /* ZFNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC649DE208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNewsUITests" */;
+			buildPhases = (
+				FAC649CB208DAA0A0089D85F /* Sources */,
+				FAC649CC208DAA0A0089D85F /* Frameworks */,
+				FAC649CD208DAA0A0089D85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC649D1208DAA0A0089D85F /* PBXTargetDependency */,
+			);
+			name = ZFNewsUITests;
+			productName = ZFNewsUITests;
+			productReference = FAC649CF208DAA0A0089D85F /* ZFNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC649A4208DAA0A0089D85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "yanzifan-mini";
+				TargetAttributes = {
+					FAC649AB208DAA0A0089D85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FAC649C3208DAA0A0089D85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC649AB208DAA0A0089D85F;
+					};
+					FAC649CE208DAA0A0089D85F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC649AB208DAA0A0089D85F;
+					};
+				};
+			};
+			buildConfigurationList = FAC649A7208DAA0A0089D85F /* Build configuration list for PBXProject "ZFNews" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC649A3208DAA0A0089D85F;
+			productRefGroup = FAC649AD208DAA0A0089D85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC649AB208DAA0A0089D85F /* ZFNews */,
+				FAC649C3208DAA0A0089D85F /* ZFNewsTests */,
+				FAC649CE208DAA0A0089D85F /* ZFNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC649AA208DAA0A0089D85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC649BC208DAA0A0089D85F /* LaunchScreen.storyboard in Resources */,
+				FAC649B9208DAA0A0089D85F /* Assets.xcassets in Resources */,
+				FAC649B7208DAA0A0089D85F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649C2208DAA0A0089D85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649CD208DAA0A0089D85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC649A8208DAA0A0089D85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC649B4208DAA0A0089D85F /* ViewController.m in Sources */,
+				FAC649BF208DAA0A0089D85F /* main.m in Sources */,
+				FAC649B1208DAA0A0089D85F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649C0208DAA0A0089D85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC649C9208DAA0A0089D85F /* ZFNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC649CB208DAA0A0089D85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC649D4208DAA0A0089D85F /* ZFNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC649C6208DAA0A0089D85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC649AB208DAA0A0089D85F /* ZFNews */;
+			targetProxy = FAC649C5208DAA0A0089D85F /* PBXContainerItemProxy */;
+		};
+		FAC649D1208DAA0A0089D85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC649AB208DAA0A0089D85F /* ZFNews */;
+			targetProxy = FAC649D0208DAA0A0089D85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC649B5208DAA0A0089D85F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC649B6208DAA0A0089D85F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC649BB208DAA0A0089D85F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC649D6208DAA0A0089D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC649D7208DAA0A0089D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC649D9208DAA0A0089D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC649DA208DAA0A0089D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC649DC208DAA0A0089D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFNews.app/ZFNews";
+			};
+			name = Debug;
+		};
+		FAC649DD208DAA0A0089D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFNews.app/ZFNews";
+			};
+			name = Release;
+		};
+		FAC649DF208DAA0A0089D85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFNews;
+			};
+			name = Debug;
+		};
+		FAC649E0208DAA0A0089D85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 474M74Y585;
+				INFOPLIST_FILE = ZFNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC649A7208DAA0A0089D85F /* Build configuration list for PBXProject "ZFNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC649D6208DAA0A0089D85F /* Debug */,
+				FAC649D7208DAA0A0089D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC649D8208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC649D9208DAA0A0089D85F /* Debug */,
+				FAC649DA208DAA0A0089D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC649DB208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC649DC208DAA0A0089D85F /* Debug */,
+				FAC649DD208DAA0A0089D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC649DE208DAA0A0089D85F /* Build configuration list for PBXNativeTarget "ZFNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC649DF208DAA0A0089D85F /* Debug */,
+				FAC649E0208DAA0A0089D85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC649A4208DAA0A0089D85F /* Project object */;
+}
