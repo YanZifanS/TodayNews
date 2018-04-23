@@ -8,6 +8,14 @@
 
 #import "ZFTabBarController.h"
 
+#import "ZFNavigationViewController.h"
+
+#import "ZFHomeViewController.h"
+#import "ZFVideoViewController.h"
+
+#import "ZFCustomTabBar.h"
+#import "MSCustomTabBar.h"
+
 @interface ZFTabBarController ()
 
 @end
@@ -16,22 +24,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setValue:[[ZFCustomTabBar alloc] init] forKey:@"tabBar"];
+    [self addChildViewControllerS];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addChildViewControllerS {
+    ZFHomeViewController *homeVC = [[ZFHomeViewController alloc]init];
+    [self addChildViewController:homeVC withImage:@"tabbar_entertainment" selectedImage:@"tabbar_entertainment_sel" title:@"首页"];
+    
+    ZFVideoViewController *videoVC =  [[ZFVideoViewController alloc]init];
+    [self addChildViewController:videoVC withImage:@"tabbar_home" selectedImage:@"tabbar_home_sel" title:@"视频"];
+    
+    ZFHomeViewController *touVC = [[ZFHomeViewController alloc]init];
+    [self addChildViewController:touVC withImage:@"tabbar_entertainment" selectedImage:@"tabbar_entertainment_sel" title:@"首页"];
+    
+    ZFVideoViewController *mineVC =  [[ZFVideoViewController alloc]init];
+    [self addChildViewController:mineVC withImage:@"tabbar_home" selectedImage:@"tabbar_home_sel" title:@"视频"];
 }
-*/
+
+- (void)addChildViewController:(UIViewController *)childController withImage:(NSString *)strImageName selectedImage:(NSString *)strSelectedImage title:(NSString *)strTitle {
+    
+    ZFNavigationViewController *navi = [[ZFNavigationViewController alloc]initWithRootViewController:childController];
+    navi.tabBarItem.image = [UIImage imageNamed:strImageName];
+    navi.tabBarItem.selectedImage = [UIImage imageNamed:strSelectedImage];
+    navi.tabBarItem.title = strTitle;
+    [self addChildViewController:navi];
+    
+}
+
 
 @end

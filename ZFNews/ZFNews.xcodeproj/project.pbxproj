@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90D09499208E04C200C39880 /* ZFBaseNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D09488208E04C200C39880 /* ZFBaseNetwork.m */; };
+		90D0949A208E04C200C39880 /* ZFVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D0948C208E04C200C39880 /* ZFVideoViewController.m */; };
+		90D0949C208E04C200C39880 /* ZFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D09491208E04C200C39880 /* ZFTabBarController.m */; };
+		90D0949D208E04C200C39880 /* ZFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D09495208E04C200C39880 /* ZFHomeViewController.m */; };
+		90D0949E208E04C200C39880 /* ZFCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D09498208E04C200C39880 /* ZFCategoryModel.m */; };
+		90D094A1208E0AD400C39880 /* ZFNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D094A0208E0AD400C39880 /* ZFNavigationViewController.m */; };
+		90D094A4208E1CA700C39880 /* ZFCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D094A3208E1CA700C39880 /* ZFCustomTabBar.m */; };
+		90D094A7208E223900C39880 /* MSCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D094A6208E223800C39880 /* MSCustomTabBar.m */; };
 		FAC649B1208DAA0A0089D85F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649B0208DAA0A0089D85F /* AppDelegate.m */; };
-		FAC649B4208DAA0A0089D85F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649B3208DAA0A0089D85F /* ViewController.m */; };
-		FAC649B7208DAA0A0089D85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC649B5208DAA0A0089D85F /* Main.storyboard */; };
 		FAC649B9208DAA0A0089D85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC649B8208DAA0A0089D85F /* Assets.xcassets */; };
 		FAC649BC208DAA0A0089D85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */; };
 		FAC649BF208DAA0A0089D85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC649BE208DAA0A0089D85F /* main.m */; };
@@ -35,12 +41,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90D09487208E04C200C39880 /* ZFBaseNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBaseNetwork.h; sourceTree = "<group>"; };
+		90D09488208E04C200C39880 /* ZFBaseNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBaseNetwork.m; sourceTree = "<group>"; };
+		90D0948B208E04C200C39880 /* ZFVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVideoViewController.h; sourceTree = "<group>"; };
+		90D0948C208E04C200C39880 /* ZFVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVideoViewController.m; sourceTree = "<group>"; };
+		90D09490208E04C200C39880 /* ZFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTabBarController.h; sourceTree = "<group>"; };
+		90D09491208E04C200C39880 /* ZFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTabBarController.m; sourceTree = "<group>"; };
+		90D09494208E04C200C39880 /* ZFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFHomeViewController.h; sourceTree = "<group>"; };
+		90D09495208E04C200C39880 /* ZFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFHomeViewController.m; sourceTree = "<group>"; };
+		90D09497208E04C200C39880 /* ZFCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCategoryModel.h; sourceTree = "<group>"; };
+		90D09498208E04C200C39880 /* ZFCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCategoryModel.m; sourceTree = "<group>"; };
+		90D0949F208E0AD400C39880 /* ZFNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFNavigationViewController.h; sourceTree = "<group>"; };
+		90D094A0208E0AD400C39880 /* ZFNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNavigationViewController.m; sourceTree = "<group>"; };
+		90D094A2208E1CA700C39880 /* ZFCustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFCustomTabBar.h; sourceTree = "<group>"; };
+		90D094A3208E1CA700C39880 /* ZFCustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTabBar.m; sourceTree = "<group>"; };
+		90D094A5208E223800C39880 /* MSCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCustomTabBar.h; sourceTree = "<group>"; };
+		90D094A6208E223800C39880 /* MSCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCustomTabBar.m; sourceTree = "<group>"; };
 		FAC649AC208DAA0A0089D85F /* ZFNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC649AF208DAA0A0089D85F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAC649B0208DAA0A0089D85F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FAC649B2208DAA0A0089D85F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FAC649B3208DAA0A0089D85F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FAC649B6208DAA0A0089D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAC649B8208DAA0A0089D85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC649BB208DAA0A0089D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC649BD208DAA0A0089D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +97,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90D09486208E04C200C39880 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90D09487208E04C200C39880 /* ZFBaseNetwork.h */,
+				90D09488208E04C200C39880 /* ZFBaseNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		90D09489208E04C200C39880 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				90D0948A208E04C200C39880 /* Controller */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		90D0948A208E04C200C39880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90D0948B208E04C200C39880 /* ZFVideoViewController.h */,
+				90D0948C208E04C200C39880 /* ZFVideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90D0948D208E04C200C39880 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90D09490208E04C200C39880 /* ZFTabBarController.h */,
+				90D09491208E04C200C39880 /* ZFTabBarController.m */,
+				90D0949F208E0AD400C39880 /* ZFNavigationViewController.h */,
+				90D094A0208E0AD400C39880 /* ZFNavigationViewController.m */,
+				90D094A5208E223800C39880 /* MSCustomTabBar.h */,
+				90D094A6208E223800C39880 /* MSCustomTabBar.m */,
+				90D094A2208E1CA700C39880 /* ZFCustomTabBar.h */,
+				90D094A3208E1CA700C39880 /* ZFCustomTabBar.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		90D09492208E04C200C39880 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90D09493208E04C200C39880 /* Controller */,
+				90D09496208E04C200C39880 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		90D09493208E04C200C39880 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90D09494208E04C200C39880 /* ZFHomeViewController.h */,
+				90D09495208E04C200C39880 /* ZFHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90D09496208E04C200C39880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90D09497208E04C200C39880 /* ZFCategoryModel.h */,
+				90D09498208E04C200C39880 /* ZFCategoryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FAC649A3208DAA0A0089D85F = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +188,12 @@
 		FAC649AE208DAA0A0089D85F /* ZFNews */ = {
 			isa = PBXGroup;
 			children = (
+				90D0948D208E04C200C39880 /* Common */,
+				90D09492208E04C200C39880 /* Home */,
+				90D09486208E04C200C39880 /* Network */,
+				90D09489208E04C200C39880 /* Video */,
 				FAC649AF208DAA0A0089D85F /* AppDelegate.h */,
 				FAC649B0208DAA0A0089D85F /* AppDelegate.m */,
-				FAC649B2208DAA0A0089D85F /* ViewController.h */,
-				FAC649B3208DAA0A0089D85F /* ViewController.m */,
-				FAC649B5208DAA0A0089D85F /* Main.storyboard */,
 				FAC649B8208DAA0A0089D85F /* Assets.xcassets */,
 				FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */,
 				FAC649BD208DAA0A0089D85F /* Info.plist */,
@@ -240,7 +328,6 @@
 			files = (
 				FAC649BC208DAA0A0089D85F /* LaunchScreen.storyboard in Resources */,
 				FAC649B9208DAA0A0089D85F /* Assets.xcassets in Resources */,
-				FAC649B7208DAA0A0089D85F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +352,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC649B4208DAA0A0089D85F /* ViewController.m in Sources */,
+				90D094A7208E223900C39880 /* MSCustomTabBar.m in Sources */,
+				90D0949D208E04C200C39880 /* ZFHomeViewController.m in Sources */,
+				90D0949A208E04C200C39880 /* ZFVideoViewController.m in Sources */,
+				90D0949E208E04C200C39880 /* ZFCategoryModel.m in Sources */,
 				FAC649BF208DAA0A0089D85F /* main.m in Sources */,
+				90D09499208E04C200C39880 /* ZFBaseNetwork.m in Sources */,
 				FAC649B1208DAA0A0089D85F /* AppDelegate.m in Sources */,
+				90D094A4208E1CA700C39880 /* ZFCustomTabBar.m in Sources */,
+				90D094A1208E0AD400C39880 /* ZFNavigationViewController.m in Sources */,
+				90D0949C208E04C200C39880 /* ZFTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAC649B5208DAA0A0089D85F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAC649B6208DAA0A0089D85F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAC649BA208DAA0A0089D85F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 474M74Y585;
 				INFOPLIST_FILE = ZFNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 474M74Y585;
 				INFOPLIST_FILE = ZFNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Test.ZFNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";

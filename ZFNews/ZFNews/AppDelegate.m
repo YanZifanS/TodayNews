@@ -8,7 +8,12 @@
 
 #import "AppDelegate.h"
 
+#import "ZFTabBarController.h"
+#import "ZFNavigationViewController.h"
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ZFTabBarController *tabBarController;
 
 @end
 
@@ -16,7 +21,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.tabBarController = [[ZFTabBarController alloc]init];
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
